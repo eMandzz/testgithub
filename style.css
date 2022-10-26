@@ -4,7 +4,8 @@
 /* selector */
 body {
 	/* property */ /* value */
-	background-image: url("Klunkrekrigere logo.png")
+	background-color: gray;
+	/* url("Klunkrekrigere logo.png")*/
 }
 
 * {
@@ -52,4 +53,32 @@ ul li {
 hl, p, a , .red {
 	
 	background-color: pink;
+	font-family: marshmallow-fluff, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+
+
+.animation {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	animation-name: test;
+	position: relative;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+	
+}
+
+.animation:hover {
+	background-color: red;
+	
+}
+
+@keyframes test {
+	0% { background-color: black;}
+	50% { background-color: blue;}
+	100% { background-color: black;}
+}
+
