@@ -1,3 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* selector */
+body {
+	/* property */ /* value */
+	background-color: darkgreen;
+}
+
+* {
+	color: black;
+}
+
+.red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+ul li {
+	color: white;
+}
+
+hl, p, a , .red {
+	background-color: pink;
+}
