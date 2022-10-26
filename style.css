@@ -12,7 +12,29 @@ body {
 }
 
 .red {
+	
+	border-width: 10px;
+	border-style: dashed;
+	border-color: black;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18pt;
+	text-align: center;
+	display: inline;
+	margin: 250px; 
+	padding: 100px; 
+	top: 0px;
+	
+	
+	
 	color: red;
+}
+
+.box {
+	background: black;
+	height: 100px;
+	width: 100px;
+	
 }
 
 #blue {
@@ -24,5 +46,6 @@ ul li {
 }
 
 hl, p, a , .red {
+	
 	background-color: pink;
 }
